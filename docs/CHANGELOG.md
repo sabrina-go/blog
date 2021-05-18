@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/sabrina-go/blog/compare/v1.0.0...v1.1.0) (2021-05-18)
+
+
+### Features
+
+* Add commitlint ([fa393f9](https://github.com/sabrina-go/blog/commit/fa393f9d205b5fa8a3cc48a87eeb772098202e5b))
+
 # 1.0.0 (2021-05-18)
 
 
