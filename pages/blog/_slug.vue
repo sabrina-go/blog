@@ -10,6 +10,6 @@ export default {
     const article = await $content('articles', params.slug).fetch()
 
     return { article }
-  }
+  },
 }
 </script>
