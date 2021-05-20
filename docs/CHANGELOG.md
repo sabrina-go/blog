@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/sabrina-go/blog/compare/v1.2.0...v1.3.0) (2021-05-20)
+
+
+### Features
+
+* Create index page ([17c96be](https://github.com/sabrina-go/blog/commit/17c96be27b45be45b90c0cb8553b192b71160182)), closes [#2](https://github.com/sabrina-go/blog/issues/2)
+
 # [1.2.0](https://github.com/sabrina-go/blog/compare/v1.1.0...v1.2.0) (2021-05-19)
 
 
