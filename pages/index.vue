@@ -2,17 +2,21 @@
   <div class="index">
     <div class="index__container">
       <h1 class="index__title">blog-nuxt</h1>
-      <div :v-if="articles" class="articles">
+      <div class="index__articles">
         <template v-for="article in articles">
-          <ArticleCard :key="article.slug" :article="article" class="article" />
+          <ArticleCard
+            :key="article.slug"
+            :article="article"
+            class="index__article"
+          />
         </template>
       </div>
-      <div :v-if="remainingArticles" class="articles-remaining">
+      <div :v-if="remainingArticles" class="index__articles-remaining">
         <template v-for="article in remainingArticles">
           <ArticleCard
             :key="article.slug"
             :article="article"
-            class="article-remaining"
+            class="index__article-remaining"
           />
         </template>
       </div>
@@ -62,74 +66,74 @@ export default {
       width: 820px;
     }
   }
-}
 
-.articles {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  &__articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-  @include device-is('tablet') {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 180px 70px 180px;
-    gap: 32px 20px;
-  }
-}
-
-.article {
-  width: 400px;
-  height: 180px;
-  margin: 32px 0 0;
-
-  @include device-is('tablet') {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+    @include device-is('tablet') {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 180px 70px 180px;
+      gap: 20px;
+    }
   }
 
-  &:nth-of-type(1n) {
-    grid-column: span 2;
+  &__article {
+    width: 400px;
+    height: 180px;
+    margin: 20px 0 0;
+
+    @include device-is('tablet') {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    &:nth-of-type(1n) {
+      grid-column: span 2;
+    }
+
+    &:nth-of-type(2n) {
+      grid-column: span 1;
+      grid-row: span 2;
+    }
+
+    &:nth-of-type(3n) {
+      grid-column: span 1;
+      grid-row: span 2;
+    }
+
+    &:nth-of-type(6n-1) {
+      grid-column: span 1;
+      grid-row: span 2;
+    }
+
+    &:nth-of-type(6n) {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
   }
 
-  &:nth-of-type(2n) {
-    grid-column: span 1;
-    grid-row: span 2;
+  &__articles-remaining {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+
+    @include device-is('tablet') {
+      justify-content: left;
+    }
   }
 
-  &:nth-of-type(3n) {
-    grid-column: span 1;
-    grid-row: span 2;
+  &__article-remaining {
+    width: 400px;
+    height: 180px;
   }
-
-  &:nth-of-type(6n-1) {
-    grid-column: span 1;
-    grid-row: span 2;
-  }
-
-  &:nth-of-type(6n) {
-    grid-column: span 2;
-    grid-row: span 1;
-  }
-}
-
-.articles-remaining {
-  margin: 32px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 32px 20px;
-  justify-content: center;
-
-  @include device-is('tablet') {
-    justify-content: left;
-  }
-}
-
-.article-remaining {
-  width: 400px;
-  height: 180px;
 }
 </style>
