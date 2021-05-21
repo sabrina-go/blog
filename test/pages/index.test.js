@@ -1,17 +1,17 @@
-import { mount } from '@vue/test-utils'
-import Index from '@/pages/index'
+import { mount } from '@vue/test-utils';
+import Index from '@/pages/index';
 
 describe('page | index', () => {
-  let page
+  let page;
   beforeEach(() => {
-    page = mount(Index)
-  })
+    page = mount(Index);
+  });
 
   test('is a Vue instance', () => {
-    expect(page.vm).toBeTruthy()
-  })
+    expect(page.vm).toBeTruthy();
+  });
 
   test('render properly', () => {
-    expect(page.html()).toMatchSnapshot()
-  })
-})
+    expect(page.html()).toMatchSnapshot();
+  });
+});
