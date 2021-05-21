@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | ArticleCard render properly 1`] = `
+"<nuxtlink-stub to=\\"[object Object]\\" class=\\"article-card\\">
+  <h2 class=\\"article-card__title\\">Article Card test</h2>
+  <p>description</p>
+</nuxtlink-stub>"
+`;
