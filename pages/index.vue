@@ -48,14 +48,7 @@ export default {
 
 <style lang="scss">
 .index {
-  background: linear-gradient(
-    170deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(220, 246, 246, 0.7) 30%,
-    rgba(200, 241, 241, 0.7) 50%,
-    rgba(178, 235, 235, 0.7) 70%,
-    rgba(62, 214, 221, 0.63) 100%
-  );
+  background: $main-gradient;
   min-height: 100vh;
 
   &__container {
