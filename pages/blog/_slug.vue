@@ -29,17 +29,17 @@ export default {
 <style lang="scss">
 .article {
   min-height: 100vh;
-  background-image: url('/post-background.png'), $principal-gradient;
+  width: 100%;
+  background-image: url('/post-background.png'), $main-gradient;
   background-position: top;
   background-repeat: no-repeat;
 
   &__container {
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     backdrop-filter: blur(18px);
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   &__content {
