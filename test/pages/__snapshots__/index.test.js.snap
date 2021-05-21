@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page | index render properly 1`] = `
+"<div class=\\"index\\">
+  <div class=\\"index__container\\">
+    <h1 class=\\"index__title\\">blog-nuxt</h1>
+    <div class=\\"articles\\"></div>
+    <div class=\\"articles-remaining\\"></div>
+  </div>
+</div>"
+`;
