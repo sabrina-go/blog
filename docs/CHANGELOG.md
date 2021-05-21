@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/sabrina-go/blog/compare/v1.3.0...v1.4.0) (2021-05-21)
+
+
+### Features
+
+* Improve post page ([cbf454b](https://github.com/sabrina-go/blog/commit/cbf454b414a7efd2c7d8ab19f96bfa2b55720112)), closes [#3](https://github.com/sabrina-go/blog/issues/3)
+
 # [1.3.0](https://github.com/sabrina-go/blog/compare/v1.2.0...v1.3.0) (2021-05-20)
 
 
