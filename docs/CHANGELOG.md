@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/sabrina-go/blog/compare/v1.4.0...v1.4.1) (2021-05-21)
+
+
+### Bug Fixes
+
+* Index page style ([b15911e](https://github.com/sabrina-go/blog/commit/b15911e89ee7b836ce4a1929bb9614ba621b2b2d)), closes [#5](https://github.com/sabrina-go/blog/issues/5)
+
 # [1.4.0](https://github.com/sabrina-go/blog/compare/v1.3.0...v1.4.0) (2021-05-21)
 
 
