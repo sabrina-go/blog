@@ -5,7 +5,9 @@ exports[`page | index render properly 1`] = `
   <div class=\\"index__container\\">
     <h1 class=\\"index__title\\">blog-nuxt</h1>
     <div class=\\"articles\\"></div>
-    <div class=\\"articles-remaining\\"></div>
+    <div v-if=\\"[object Object]\\" class=\\"articles-remaining\\">
+      <articlecard-stub article=\\"[object Object]\\" class=\\"article-remaining\\"></articlecard-stub>
+    </div>
   </div>
 </div>"
 `;

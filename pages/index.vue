@@ -2,12 +2,12 @@
   <div class="index">
     <div class="index__container">
       <h1 class="index__title">blog-nuxt</h1>
-      <div class="articles">
+      <div :v-if="articles" class="articles">
         <template v-for="article in articles">
           <ArticleCard :key="article.slug" :article="article" class="article" />
         </template>
       </div>
-      <div class="articles-remaining">
+      <div :v-if="remainingArticles" class="articles-remaining">
         <template v-for="article in remainingArticles">
           <ArticleCard
             :key="article.slug"
@@ -21,25 +21,25 @@
 </template>
 
 <script>
-import ArticleCard from '../components/ArticleCard'
+import ArticleCard from '../components/ArticleCard';
 export default {
   components: { ArticleCard },
   async asyncData({ $content }) {
     const articles = await $content('articles')
       .only(['title', 'description', 'img', 'slug', 'author'])
       .sortBy('createdAt', 'asc')
-      .fetch()
+      .fetch();
 
-    const numberOfArticleChunk = Math.floor(articles.length / 6)
+    const numberOfArticleChunk = Math.floor(articles.length / 6);
 
     return numberOfArticleChunk >= 1
       ? {
           articles: articles.slice(0, numberOfArticleChunk * 6),
           remainingArticles: articles.slice(numberOfArticleChunk * 6),
         }
-      : { remainingArticles: articles }
+      : { remainingArticles: articles };
   },
-}
+};
 </script>
 
 <style lang="scss">
