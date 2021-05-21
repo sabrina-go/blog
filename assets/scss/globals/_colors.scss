@@ -1,12 +1,9 @@
 $white: #fff;
 $bright-gray: #3B3D52;
 $waterloo: #838098;
+$magnolia: #E9E6F0;
+$rhythm: #6B6880;
 
-$principal-gradient: linear-gradient(
-    170deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(220, 246, 246, 0.7) 30%,
-    rgba(200, 241, 241, 0.7) 50%,
-    rgba(178, 235, 235, 0.7) 70%,
-    rgba(62, 214, 221, 0.63) 100%
-);
+$main-gradient: linear-gradient(173deg, #dcf6f6, #009ca5);
+
+$shadow: 0 10px 20px 0 rgba(108, 104, 128, 0.4);
