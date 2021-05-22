@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/sabrina-go/blog/compare/v1.5.0...v1.6.0) (2021-05-22)
+
+
+### Features
+
+* Improve background post ([bf085b0](https://github.com/sabrina-go/blog/commit/bf085b07a53434955c7ddba3a9989759ca7b1367)), closes [#7](https://github.com/sabrina-go/blog/issues/7)
+
 # [1.5.0](https://github.com/sabrina-go/blog/compare/v1.4.1...v1.5.0) (2021-05-22)
 
 
