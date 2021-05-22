@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/sabrina-go/blog/compare/v1.4.1...v1.5.0) (2021-05-22)
+
+
+### Features
+
+* Improve gradient ([76483f1](https://github.com/sabrina-go/blog/commit/76483f11c9a54e819f628511a629913f892f9d73)), closes [#6](https://github.com/sabrina-go/blog/issues/6)
+
 ## [1.4.1](https://github.com/sabrina-go/blog/compare/v1.4.0...v1.4.1) (2021-05-21)
 
 
