@@ -37,7 +37,7 @@ export default {
   &__container {
     min-height: 100vh;
     width: 100%;
-    backdrop-filter: blur(18px);
+    backdrop-filter: blur(12px);
     display: flex;
     justify-content: center;
   }
