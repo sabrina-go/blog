@@ -22,13 +22,26 @@ export default {
 
 <style lang="scss" scoped>
 .article-card {
-  background-color: $white;
-  box-shadow: 0 10px 20px 0 #6b6880;
+  background-color: rgba($white, 0.5);
+  box-shadow: $shadow;
   border-radius: 16px;
   outline: none;
   color: $bright-gray;
   text-decoration: none;
   padding: 14px;
+  transition: all 0.1s;
+
+  &:hover {
+    transform: scale(1.03);
+    background-color: rgba($white, 0.6);
+    box-shadow: $shadow-hover;
+  }
+
+  &__container {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+  }
 
   &__title {
     font-family: $font-open-sans;

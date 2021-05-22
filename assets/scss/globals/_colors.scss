@@ -3,7 +3,9 @@ $bright-gray: #3B3D52;
 $waterloo: #838098;
 $magnolia: #E9E6F0;
 $rhythm: #6B6880;
+$dark-purple: #1d1a33;
 
 $main-gradient: linear-gradient(173deg, #dcf6f6, #009ca5);
 
-$shadow: 0 10px 20px 0 rgba(108, 104, 128, 0.4);
+$shadow: 0 5px 15px 0 rgba($dark-purple, 0.3);
+$shadow-hover: 0 5px 20px 0 rgba($dark-purple, 0.2);
