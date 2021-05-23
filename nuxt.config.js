@@ -7,17 +7,54 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'blog-nuxt',
+    title: 'We are the Knowledge',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Inspirer et partager la connaisance.',
+      },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'We are the Knowledge',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Inspirer et partager la connaisance.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/og-image.png',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'We are the Knowledge',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Inspirer et partager la connaisance.',
+      },
+      { hid: 'og:type', property: 'og:type', content: 'article' },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/og-image.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;600&display=swap',
