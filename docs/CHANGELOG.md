@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/sabrina-go/blog/compare/v1.9.0...v1.9.1) (2021-05-23)
+
+
+### Bug Fixes
+
+*  Typo stdout in ending-content ([3bcf3d5](https://github.com/sabrina-go/blog/commit/3bcf3d59a7b4bed4627b1fea889702249419aaeb)), closes [#14](https://github.com/sabrina-go/blog/issues/14)
+
 # [1.9.0](https://github.com/sabrina-go/blog/compare/v1.8.1...v1.9.0) (2021-05-23)
 
 
