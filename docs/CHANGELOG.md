@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/sabrina-go/blog/compare/v1.6.0...v1.7.0) (2021-05-23)
+
+
+### Features
+
+* Add logo ([97021f3](https://github.com/sabrina-go/blog/commit/97021f3c47ef4051df845d04a92023c743a402a8)), closes [#8](https://github.com/sabrina-go/blog/issues/8)
+
 # [1.6.0](https://github.com/sabrina-go/blog/compare/v1.5.0...v1.6.0) (2021-05-22)
 
 
