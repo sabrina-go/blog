@@ -12,6 +12,7 @@
     "lint": "npm run lint:js && npm run lint:style",
     "test": "jest",
     "content:add": "node ./scripts/create-content.js"
+    "content:end": "node ./scripts/ending-content.js"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
