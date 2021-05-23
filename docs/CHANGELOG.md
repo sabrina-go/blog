@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/sabrina-go/blog/compare/v1.8.0...v1.8.1) (2021-05-23)
+
+
+### Bug Fixes
+
+* SEO on nuxt.config not use baseUrl ([a90d54c](https://github.com/sabrina-go/blog/commit/a90d54cb20092a08198e5f94fd09dd3494a8f6ed)), closes [#11](https://github.com/sabrina-go/blog/issues/11)
+
 # [1.8.0](https://github.com/sabrina-go/blog/compare/v1.7.1...v1.8.0) (2021-05-23)
 
 
