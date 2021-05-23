@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .article-card {
-  background-color: rgba($white, 0.5);
+  background-color: rgba($white, 0.7);
   box-shadow: $shadow;
   border-radius: 16px;
   outline: none;
@@ -33,7 +33,7 @@ export default {
 
   &:hover {
     transform: scale(1.03);
-    background-color: rgba($white, 0.6);
+    background-color: rgba($white, 0.8);
     box-shadow: $shadow-hover;
   }
 
