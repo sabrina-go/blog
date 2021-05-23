@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/sabrina-go/blog/compare/v1.7.0...v1.7.1) (2021-05-23)
+
+
+### Bug Fixes
+
+* Logo path with router base ([39c5d5c](https://github.com/sabrina-go/blog/commit/39c5d5c4bb8eeadee9e91aa0e756628e717e3d33)), closes [#9](https://github.com/sabrina-go/blog/issues/9)
+
 # [1.7.0](https://github.com/sabrina-go/blog/compare/v1.6.0...v1.7.0) (2021-05-23)
 
 
