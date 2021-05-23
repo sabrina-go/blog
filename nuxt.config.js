@@ -33,7 +33,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/og-image.png',
+        content: '/blog/og-image.png',
       },
       {
         hid: 'og:title',
@@ -49,12 +49,16 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/og-image.png',
+        content: '/blog/og-image.png',
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      {
+        rel: 'apple-touch-icon',
+        type: 'image/x-icon',
+        href: 'favicon.ico',
+      },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;600&display=swap',
