@@ -1,15 +1,16 @@
+/* eslint-disable no-console */
 const fs = require('fs');
 const path = require('path');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 
-const CONTENT_TEMPLATE = path.join(__dirname + '/../templates/content.md');
+const CONTENT_TEMPLATE = path.join(__dirname, '/../templates/content.md');
 
 function createContent(contentName) {
   try {
     fs.copyFileSync(
       CONTENT_TEMPLATE,
-      path.join(__dirname + `/../content/articles/${contentName}.md`),
+      path.join(__dirname, `/../content/articles/${contentName}.md`),
       fs.constants.COPYFILE_EXCL
     );
     console.log('Fichier créé');
