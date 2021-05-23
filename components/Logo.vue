@@ -3,7 +3,7 @@
     <NuxtLink to="/">
       <img
         class="logo__image"
-        src="/logo.png"
+        src="logo.png"
         alt="We are knowledge - Page d'accueil"
       />
     </NuxtLink>
