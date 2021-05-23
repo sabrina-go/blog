@@ -1,7 +1,6 @@
 <template>
   <div class="index">
     <div class="index__container">
-      <h1 class="index__title">blog-nuxt</h1>
       <div class="index__articles">
         <template v-for="article in articles">
           <ArticleCard
