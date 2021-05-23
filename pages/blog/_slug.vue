@@ -40,10 +40,11 @@ export default {
     backdrop-filter: blur(12px);
     display: flex;
     justify-content: center;
+    padding-top: 163px;
+    padding-bottom: 42px;
   }
 
   &__content {
-    margin: 128px 0;
     width: 820px;
     padding: 21px;
 

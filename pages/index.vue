@@ -53,6 +53,7 @@ export default {
 
   &__container {
     margin: 0 auto;
+    padding-top: 163px;
     width: 90%;
 
     @include device-is('tablet') {
