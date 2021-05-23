@@ -31,14 +31,14 @@ async function createCommit() {
 }
 
 async function getBranchName() {
-  const { stout, sterr } = await exec('git branch --show-current');
+  const { stdout, sterr } = await exec('git branch --show-current');
   if (sterr) {
     console.error(
       `Une erreur s'est produite lors de la récupération de la branche : ${sterr}`
     );
     process.exit(1);
   }
-  return stout;
+  return stdout;
 }
 
 async function pushBranch() {
