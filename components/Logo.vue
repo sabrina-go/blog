@@ -4,7 +4,7 @@
       <img
         class="logo__image"
         src="logo.png"
-        alt="We are knowledge - Page d'accueil"
+        alt="We are the knowledge - Page d'accueil"
       />
     </NuxtLink>
   </div>
