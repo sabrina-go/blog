@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/sabrina-go/blog/compare/v1.8.1...v1.9.0) (2021-05-23)
+
+
+### Bug Fixes
+
+* Package.json lint ([6ceb46a](https://github.com/sabrina-go/blog/commit/6ceb46a2bee08389b1ce09a2085efc2104171d29)), closes [#13](https://github.com/sabrina-go/blog/issues/13)
+
+
+### Features
+
+* Add content script ([e2d5164](https://github.com/sabrina-go/blog/commit/e2d5164541cf31fd31db0fa96eca3434dca56b59)), closes [#12](https://github.com/sabrina-go/blog/issues/12)
+
 ## [1.8.1](https://github.com/sabrina-go/blog/compare/v1.8.0...v1.8.1) (2021-05-23)
 
 
