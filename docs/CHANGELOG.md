@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/sabrina-go/blog/compare/v1.7.1...v1.8.0) (2021-05-23)
+
+
+### Features
+
+* Improve SEO ([d3c88bd](https://github.com/sabrina-go/blog/commit/d3c88bd7cbb66488054f603565d30c245be8528d)), closes [#10](https://github.com/sabrina-go/blog/issues/10)
+
 ## [1.7.1](https://github.com/sabrina-go/blog/compare/v1.7.0...v1.7.1) (2021-05-23)
 
 
