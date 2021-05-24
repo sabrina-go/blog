@@ -5,6 +5,9 @@
   >
     <h2 class="article-card__title">{{ article.title }}</h2>
     <p>{{ article.description }}</p>
+    <div class="article-card__icon">
+      <img :src="icon.image" role="presentation" alt />
+    </div>
   </NuxtLink>
 </template>
 
@@ -16,6 +19,20 @@ export default {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      icon: {},
+    };
+  },
+  async fetch() {
+    const icons = await this.$content('icons')
+      .only(['name', 'image'])
+      .where({ name: this.article.icon })
+      .limit(1)
+      .fetch();
+
+    this.icon = icons[0];
   },
 };
 </script>
@@ -30,6 +47,7 @@ export default {
   text-decoration: none;
   padding: 14px;
   transition: all 0.1s;
+  position: relative;
 
   &:hover {
     transform: scale(1.03);
@@ -48,6 +66,18 @@ export default {
     font-weight: $font-semi-bold;
     font-size: 1.4rem;
     word-wrap: break-word;
+  }
+
+  &__icon {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    width: 60px;
+    margin-left: 7px;
+
+    img {
+      width: 100%;
+    }
   }
 }
 </style>
