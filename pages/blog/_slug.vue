@@ -5,18 +5,21 @@
         <div class="article-content__date">
           {{ formatDate(article.updatedAt) }}
         </div>
-        <nuxt-content :document="article" />
-        <div class="article-content__author">Sabrina</div>
+        <nuxt-content :document="article" class="article-content__content" />
+        <Author :author="author" class="article-content__author" />
       </article>
     </div>
   </div>
 </template>
 
 <script>
+import Author from '../../components/Author';
 export default {
+  components: { Author },
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch();
-    return { article };
+    const author = await $content('authors', article.author).fetch();
+    return { article, author };
   },
   head() {
     return {
@@ -80,6 +83,8 @@ export default {
   &__content {
     width: 820px;
     padding: 21px;
+    display: flex;
+    flex-direction: column;
 
     @include device-is('tablet') {
       padding: 21px 35px;
@@ -101,6 +106,10 @@ export default {
     margin-bottom: 14px;
   }
 
+  &__content {
+    flex: 1;
+  }
+
   &__author {
     color: $bright-gray;
     font-family: $font-open-sans;
@@ -111,6 +120,8 @@ export default {
 }
 
 .nuxt-content {
+  flex: 1;
+
   h1 {
     color: $rhythm;
     font-family: $font-open-sans;
