@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/sabrina-go/blog/compare/v1.10.0...v1.11.0) (2021-05-24)
+
+
+### Features
+
+* Choose font in post ([255a5f6](https://github.com/sabrina-go/blog/commit/255a5f6bf41ba51e9c7eb8d41d492f9729f8e625)), closes [#16](https://github.com/sabrina-go/blog/issues/16)
+
 # [1.10.0](https://github.com/sabrina-go/blog/compare/v1.9.1...v1.10.0) (2021-05-24)
 
 
