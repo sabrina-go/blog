@@ -4,5 +4,6 @@ exports[`components | ArticleCard render properly 1`] = `
 "<nuxtlink-stub to=\\"[object Object]\\" class=\\"article-card\\">
   <h2 class=\\"article-card__title\\">Article Card test</h2>
   <p>description</p>
+  <div class=\\"article-card__icon\\"><img role=\\"presentation\\" alt=\\"\\"></div>
 </nuxtlink-stub>"
 `;
