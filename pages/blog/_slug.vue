@@ -6,6 +6,7 @@
           {{ formatDate(article.updatedAt) }}
         </div>
         <nuxt-content :document="article" />
+        <div class="article-content__author">Sabrina</div>
       </article>
     </div>
   </div>
@@ -93,21 +94,30 @@ export default {
 
 .article-content {
   &__date {
-    color: $waterloo;
+    color: $rhythm;
     font-family: $font-roboto;
     font-weight: $font-light;
     font-size: 0.75rem;
     margin-bottom: 14px;
   }
+
+  &__author {
+    color: $bright-gray;
+    font-family: $font-open-sans;
+    font-weight: $font-normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
 }
 
 .nuxt-content {
   h1 {
-    font-family: $font-roboto;
-    font-weight: $font-light;
-    font-size: 1.875rem;
-    line-height: 3rem;
-    margin-bottom: 14px;
+    color: $rhythm;
+    font-family: $font-open-sans;
+    font-weight: $font-semi-bold;
+    font-size: 2.5rem;
+    line-height: 4.0625rem;
+    margin-bottom: 28px;
 
     @include device-is('tablet') {
       font-size: 2.1875rem;
@@ -116,23 +126,30 @@ export default {
   }
 
   h2 {
-    font-family: $font-roboto;
-    font-weight: $font-light;
-    font-size: 1.625rem;
-    line-height: 2.625rem;
+    color: $rhythm;
+    font-family: $font-open-sans;
+    font-weight: $font-semi-bold;
+    font-size: 1.5rem;
+    line-height: 2.4375rem;
     margin-bottom: 14px;
+  }
 
-    @include device-is('tablet') {
-      line-height: 3rem;
-      margin-bottom: 14px;
-    }
+  h3 {
+    color: $rhythm;
+    font-family: $font-open-sans;
+    font-weight: $font-semi-bold;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 14px;
   }
 
   p {
+    color: $dark-purple;
     font-family: $font-roboto;
-    font-size: 0.875rem;
-    line-height: 1.4125rem;
-    margin: 7px 0;
+    font-weight: $font-light;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 14px 0;
     text-align: justify;
   }
 }
