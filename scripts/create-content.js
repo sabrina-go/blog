@@ -46,6 +46,9 @@ async function beginGitWorkflow(contentName) {
 }
 
 function runServer() {
+  console.log(
+    "Le serveur sera disponible à l'adresse suivant : http://localhost:3000"
+  );
   exec('npm run dev');
 }
 

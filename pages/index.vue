@@ -30,7 +30,7 @@ export default {
   async asyncData({ $content }) {
     const articles = await $content('articles')
       .only(['title', 'description', 'img', 'slug', 'author'])
-      .sortBy('createdAt', 'asc')
+      .sortBy('createdAt', 'desc')
       .fetch();
 
     const numberOfArticleChunk = Math.floor(articles.length / 6);
