@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/sabrina-go/blog/compare/v1.11.0...v1.12.0) (2021-05-24)
+
+
+### Features
+
+* Add icon on article card ([10ad7f4](https://github.com/sabrina-go/blog/commit/10ad7f4f8f29d80583643221b6042b89b887cd41)), closes [#17](https://github.com/sabrina-go/blog/issues/17)
+
 # [1.11.0](https://github.com/sabrina-go/blog/compare/v1.10.0...v1.11.0) (2021-05-24)
 
 
