@@ -4,7 +4,7 @@
     :to="{ name: 'blog-slug', params: { slug: article.slug } }"
   >
     <h2 class="article-card__title">{{ article.title }}</h2>
-    <p>{{ article.description }}</p>
+    <p class="article-card__description">{{ article.description }}</p>
     <div class="article-card__icon">
       <img :src="icon.image" role="presentation" alt />
     </div>
@@ -66,6 +66,18 @@ export default {
     font-weight: $font-semi-bold;
     font-size: 1.4rem;
     word-wrap: break-word;
+    margin-bottom: 7px;
+  }
+
+  &__description {
+    font-family: $font-roboto;
+    font-weight: $font-light;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    display: block;
   }
 
   &__icon {
