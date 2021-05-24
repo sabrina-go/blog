@@ -1,3 +1,15 @@
+# [1.13.0](https://github.com/sabrina-go/blog/compare/v1.12.0...v1.13.0) (2021-05-24)
+
+
+### Bug Fixes
+
+* Description width in ArticleCard ([d20cb8a](https://github.com/sabrina-go/blog/commit/d20cb8a7357cf4284c41ead39030747c3df64906))
+
+
+### Features
+
+* Add author section ([5e4f880](https://github.com/sabrina-go/blog/commit/5e4f88019e234ad91af3611902164836302d38c4)), closes [#18](https://github.com/sabrina-go/blog/issues/18)
+
 # [1.12.0](https://github.com/sabrina-go/blog/compare/v1.11.0...v1.12.0) (2021-05-24)
 
 
