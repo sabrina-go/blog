@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/sabrina-go/blog/compare/v1.9.1...v1.10.0) (2021-05-24)
+
+
+### Bug Fixes
+
+* Post order in index page ([bfcf4f9](https://github.com/sabrina-go/blog/commit/bfcf4f9b3954f02f836810c7503d1a1fc78920d6))
+
+
+### Features
+
+* Improve script ([9c5a99e](https://github.com/sabrina-go/blog/commit/9c5a99e9fb4dc8d59825b385ec8c1cb87d6dc7e2)), closes [#15](https://github.com/sabrina-go/blog/issues/15)
+
 ## [1.9.1](https://github.com/sabrina-go/blog/compare/v1.9.0...v1.9.1) (2021-05-23)
 
 
