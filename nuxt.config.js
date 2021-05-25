@@ -1,9 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base: '/blog/',
-  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -33,7 +30,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/blog/og-image.png',
+        content: '/og-image.png',
       },
       {
         hid: 'og:title',
@@ -49,7 +46,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/blog/og-image.png',
+        content: '/og-image.png',
       },
     ],
     link: [
