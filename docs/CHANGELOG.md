@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/sabrina-go/blog/compare/v1.14.0...v1.14.1) (2021-05-25)
+
+
+### Bug Fixes
+
+* Remove base url ([33ae8eb](https://github.com/sabrina-go/blog/commit/33ae8ebb47551ab27e0f67eefcdeda4c63ce0669)), closes [#20](https://github.com/sabrina-go/blog/issues/20)
+
 # [1.14.0](https://github.com/sabrina-go/blog/compare/v1.13.0...v1.14.0) (2021-05-25)
 
 
