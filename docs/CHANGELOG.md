@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/sabrina-go/blog/compare/v1.13.0...v1.14.0) (2021-05-25)
+
+
+### Features
+
+* Add cname in cd workflow ([e10fe7f](https://github.com/sabrina-go/blog/commit/e10fe7f18d05589cd8c73f5930b70d516fb577a5)), closes [#19](https://github.com/sabrina-go/blog/issues/19)
+
 # [1.13.0](https://github.com/sabrina-go/blog/compare/v1.12.0...v1.13.0) (2021-05-24)
 
 
