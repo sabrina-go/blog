@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/sabrina-go/blog/compare/v1.16.1...v1.17.0) (2021-05-26)
+
+
+### Features
+
+* Update gradient ([f43fdb8](https://github.com/sabrina-go/blog/commit/f43fdb8f780745eddacdadd5a72599193ce9f058)), closes [#32](https://github.com/sabrina-go/blog/issues/32)
+
 ## [1.16.1](https://github.com/sabrina-go/blog/compare/v1.16.0...v1.16.1) (2021-05-26)
 
 
