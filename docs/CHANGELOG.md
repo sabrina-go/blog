@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/sabrina-go/blog/compare/v1.16.0...v1.16.1) (2021-05-26)
+
+
+### Bug Fixes
+
+* Move logo to assets ([e1d60a0](https://github.com/sabrina-go/blog/commit/e1d60a0a2b2ede6b1abc9c7388cfe19e436a9180)), closes [#31](https://github.com/sabrina-go/blog/issues/31)
+
 # [1.16.0](https://github.com/sabrina-go/blog/compare/v1.15.1...v1.16.0) (2021-05-26)
 
 
