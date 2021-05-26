@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/sabrina-go/blog/compare/v1.14.3...v1.15.0) (2021-05-26)
+
+
+### Features
+
+* Improve twitter card ([222d043](https://github.com/sabrina-go/blog/commit/222d043d8fd6d60f8c76d69a59b3a9707be5545e)), closes [#28](https://github.com/sabrina-go/blog/issues/28)
+
 ## [1.14.3](https://github.com/sabrina-go/blog/compare/v1.14.2...v1.14.3) (2021-05-26)
 
 
