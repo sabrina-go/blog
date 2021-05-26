@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/sabrina-go/blog/compare/v1.15.1...v1.16.0) (2021-05-26)
+
+
+### Features
+
+* Change og image ([7ea0bd3](https://github.com/sabrina-go/blog/commit/7ea0bd3c0af24e9e332e6ac312b126791a4a5280)), closes [#30](https://github.com/sabrina-go/blog/issues/30)
+
 ## [1.15.1](https://github.com/sabrina-go/blog/compare/v1.15.0...v1.15.1) (2021-05-26)
 
 
