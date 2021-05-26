@@ -16,7 +16,11 @@ export default {
         name: 'description',
         content: 'Inspirer et partager la connaisance.',
       },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
       {
         hid: 'twitter:title',
         name: 'twitter:title',
@@ -30,7 +34,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/og-image.png',
+        content: 'https://wearetheknowledge.com/twitter-card-large.png',
       },
       {
         hid: 'og:title',
@@ -46,7 +50,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '/og-image.png',
+        content: 'https://wearetheknowledge.com/og-image.png',
       },
     ],
     link: [
