@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/sabrina-go/blog/compare/v1.15.0...v1.15.1) (2021-05-26)
+
+
+### Bug Fixes
+
+* decrease Twitter card size ([e4ec8dc](https://github.com/sabrina-go/blog/commit/e4ec8dc8afe6f284bfad4438453cc07aca6d740d)), closes [#29](https://github.com/sabrina-go/blog/issues/29)
+
 # [1.15.0](https://github.com/sabrina-go/blog/compare/v1.14.3...v1.15.0) (2021-05-26)
 
 
