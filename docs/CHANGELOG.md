@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/sabrina-go/blog/compare/v1.17.0...v1.18.0) (2021-05-31)
+
+
+### Features
+
+* update writing icons ([3047c1b](https://github.com/sabrina-go/blog/commit/3047c1b30746f9af0ea476e9e9044dd95df4e144))
+
 # [1.17.0](https://github.com/sabrina-go/blog/compare/v1.16.1...v1.17.0) (2021-05-26)
 
 
