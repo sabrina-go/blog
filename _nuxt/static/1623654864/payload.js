@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", (function(a){return {data:[{remainingArticles:[{slug:"my-first-blog-post",description:"Learning how to use @nuxt\u002Fcontent to create a blog",title:"My first Blog Post",img:"first-blog-post.jpg",icon:a,author:"sabrina"}]}],fetch:{"data-v-a0b53384:0":{icon:{name:a,image:"icons\u002Fwriting.png"}}},mutations:void 0}}("writing")));
