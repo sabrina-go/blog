@@ -43,7 +43,7 @@ async function getBranchName() {
 
 async function pushBranch() {
   const branchName = await getBranchName();
-  const { sterr } = await exec(`git push --set-upstream ${branchName}`);
+  const { sterr } = await exec(`git push --set-upstream origin ${branchName}`);
   if (sterr) {
     console.error(
       `Une erreur s'est produite lors du push de la branche : ${sterr}`
