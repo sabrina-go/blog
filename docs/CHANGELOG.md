@@ -1,3 +1,15 @@
+# [1.19.0](https://github.com/sabrina-go/blog/compare/v1.18.2...v1.19.0) (2021-06-14)
+
+
+### Bug Fixes
+
+* ending content script ([e10aecd](https://github.com/sabrina-go/blog/commit/e10aecd4b61b087af72858b31078c92adce6edf0)), closes [#48](https://github.com/sabrina-go/blog/issues/48)
+
+
+### Features
+
+* add new post ([a1fbb6a](https://github.com/sabrina-go/blog/commit/a1fbb6afad69c5be600fd9e14eff98dfe7df2b66)), closes [#47](https://github.com/sabrina-go/blog/issues/47)
+
 ## [1.18.2](https://github.com/sabrina-go/blog/compare/v1.18.1...v1.18.2) (2021-06-07)
 
 
