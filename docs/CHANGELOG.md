@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/sabrina-go/blog/compare/v1.19.0...v1.19.1) (2021-06-15)
+
+
+### Bug Fixes
+
+* **deps:** bump nuxt from 2.15.6 to 2.15.7 ([bb15488](https://github.com/sabrina-go/blog/commit/bb154885467fc8949bbd5a1b893b989a986c6f3f))
+
 # [1.19.0](https://github.com/sabrina-go/blog/compare/v1.18.2...v1.19.0) (2021-06-14)
 
 
