@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/sabrina-go/blog/compare/v1.19.1...v1.19.2) (2021-06-21)
+
+
+### Bug Fixes
+
+* **deps:** bump core-js from 3.14.0 to 3.15.0 ([64b1432](https://github.com/sabrina-go/blog/commit/64b14325d07703e6a4c394cc70c5a3ab622c0788))
+
 ## [1.19.1](https://github.com/sabrina-go/blog/compare/v1.19.0...v1.19.1) (2021-06-15)
 
 
