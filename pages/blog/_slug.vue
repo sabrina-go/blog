@@ -3,7 +3,7 @@
     <div class="article__container">
       <article class="article__content">
         <div class="article-content__date">
-          {{ formatDate(article.updatedAt) }}
+          {{ formatDate(article.publishedAt) }}
         </div>
         <nuxt-content :document="article" class="article-content__content" />
         <Author :author="author" class="article-content__author" />

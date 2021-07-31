@@ -3,7 +3,8 @@ title: Agilité et télétravail top ou flop ?
 description: Quand la culture agile valorise les interactions physiques, le télétravail s'impose comme un vrai bouleversement. Pourquoi est-il primordial de s'y adapter ?
 img: 
 alt: 
-icon: team 
+icon: team
+publishedAt: 2021-06-14
 author: sabrina
 ---
 
