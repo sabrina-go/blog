@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/sabrina-go/blog/compare/v1.20.0...v1.21.0) (2021-07-31)
+
+
+### Features
+
+* Utiliser Prismic pour les post ([126448f](https://github.com/sabrina-go/blog/commit/126448fd4c59fe501bd1a8a6f8f6cad0e69be9f2))
+
 # [1.20.0](https://github.com/sabrina-go/blog/compare/v1.19.7...v1.20.0) (2021-07-31)
 
 
