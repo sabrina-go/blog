@@ -47,12 +47,8 @@ export default {
 
 <style lang="scss">
 .index {
-  background: $main-gradient;
-  min-height: 100vh;
-
   &__container {
     margin: 0 auto;
-    padding-top: 163px;
     width: 90%;
 
     @include device-is('tablet') {
