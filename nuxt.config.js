@@ -100,7 +100,7 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content', '@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources'],
 
   styleResources: {
     scss: ['assets/scss/globals.scss'],
