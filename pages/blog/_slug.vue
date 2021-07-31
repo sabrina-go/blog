@@ -3,23 +3,25 @@
     <div class="article__container">
       <article class="article__content">
         <div class="article-content__date">
-          {{ formatDate(article.publishedAt) }}
+          {{ formatDate(article.date) }}
         </div>
-        <nuxt-content :document="article" class="article-content__content" />
-        <Author :author="author" class="article-content__author" />
+        <div class="article-content__content">
+          <prismic-rich-text :field="article.title" />
+          <prismic-rich-text :field="article.body" />
+        </div>
+        <Author class="article-content__author" />
       </article>
     </div>
   </div>
 </template>
 
 <script>
-import Author from '../../components/Author';
 export default {
-  components: { Author },
-  async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch();
-    const author = await $content('authors', article.author).fetch();
-    return { article, author };
+  async asyncData({ $prismic, params, error }) {
+    const document = await $prismic.api.getByUID('post', params.slug);
+    return document
+      ? { article: document.data }
+      : error({ statusCode: 404, message: 'Page not found' });
   },
   head() {
     return {
