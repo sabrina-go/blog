@@ -1,23 +1,18 @@
 <template>
   <div class="author">
-    <div class="author__name">{{ author.name }} -</div>
-    <template v-if="author.linkedin">
-      <a class="author__linkedin" :href="author.linkedin">
-        <font-awesome-icon :icon="['fab', 'linkedin-in']" />
-      </a>
-    </template>
+    <div class="author__name">Sabrina -</div>
+    <a
+      class="author__linkedin"
+      href="https://www.linkedin.com/in/sabrina-gomes-11098513b/"
+    >
+      <font-awesome-icon :icon="['fab', 'linkedin-in']" />
+    </a>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Author',
-  props: {
-    author: {
-      type: Object,
-      required: true,
-    },
-  },
 };
 </script>
 
