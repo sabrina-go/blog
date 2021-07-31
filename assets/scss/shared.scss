@@ -3,7 +3,45 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  color: $rhythm;
+  font-family: $font-open-sans;
+  font-weight: $font-semi-bold;
+  font-size: 2.5rem;
+  line-height: 4.0625rem;
+  margin-bottom: 28px;
+
+  @include device-is('tablet') {
+    font-size: 2.1875rem;
+    line-height: 3.5rem;
+  }
+}
+
+h2 {
+  color: $rhythm;
+  font-family: $font-open-sans;
+  font-weight: $font-semi-bold;
+  font-size: 1.5rem;
+  line-height: 2.4375rem;
+  margin-bottom: 14px;
+}
+
+h3 {
+  color: $rhythm;
+  font-family: $font-open-sans;
+  font-weight: $font-semi-bold;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 14px;
+}
+
+p {
+  color: $dark-purple;
+  font-family: $font-roboto;
+  font-weight: $font-light;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin: 14px 0;
+  text-align: justify;
 }
 
 fieldset {

@@ -66,7 +66,7 @@ export default {
 .article {
   min-height: 100vh;
   width: 100%;
-  background-image: url('/post-background.png'), $main-gradient;
+  background-image: url('/post-background.png');
   background-position: top;
   background-repeat: no-repeat;
 
@@ -76,7 +76,6 @@ export default {
     backdrop-filter: blur(12px);
     display: flex;
     justify-content: center;
-    padding-top: 163px;
     padding-bottom: 42px;
   }
 

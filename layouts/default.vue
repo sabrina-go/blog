@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="layout">
     <Logo />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -23,5 +24,10 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.layout {
+  background: $main-gradient;
+  min-height: 100vh;
 }
 </style>
