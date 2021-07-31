@@ -83,7 +83,15 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/prismic',
   ],
+
+  prismic: {
+    endpoint: 'https://sabrina-go-blog.cdn.prismic.io/api/v2',
+    linkResolver: '@/plugins/link-resolver',
+    htmlSerializer: '@/plugins/html-serializer',
+    modern: true,
+  },
 
   fontawesome: {
     icons: {
