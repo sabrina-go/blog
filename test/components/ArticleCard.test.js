@@ -3,9 +3,12 @@ import ArticleCard from '@/components/ArticleCard';
 
 describe('components | ArticleCard', () => {
   const article = {
-    slug: 'test',
-    title: 'Article Card test',
-    description: 'description',
+    uid: 'test',
+    data: {
+      title: [{ text: 'Article Card test' }],
+      excerpt: 'description',
+      icon: { data: { image: 'img' } },
+    },
   };
   let component;
 
@@ -13,6 +16,8 @@ describe('components | ArticleCard', () => {
     component = shallowMount(ArticleCard, {
       stubs: {
         NuxtLink: true,
+        PrismicRichText: true,
+        PrismicImage: true,
       },
       propsData: {
         article,
@@ -33,10 +38,6 @@ describe('components | ArticleCard', () => {
   });
 
   test('should use article title', () => {
-    expect(component.find('h2').text()).toBe(article.title);
-  });
-
-  test('should use article description', () => {
-    expect(component.find('p').text()).toBe(article.description);
+    expect(component.find('h2').text()).toBe(article.data.title[0].text);
   });
 });

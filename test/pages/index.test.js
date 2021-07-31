@@ -4,18 +4,15 @@ describe('page | index', () => {
   let page;
 
   function createContentStub(contents) {
-    return () => {
-      return {
-        only: () => {
-          return {
-            sortBy: () => {
-              return {
-                fetch: () => contents,
-              };
-            },
-          };
+    return {
+      api: {
+        query: () => {
+          return { results: contents };
         },
-      };
+      },
+      predicates: {
+        at: () => {},
+      },
     };
   }
 
@@ -28,7 +25,8 @@ describe('page | index', () => {
 
     page = await getInitialised({
       page: 'index',
-      asyncDataOpts: { $content: createContentStub(contents) },
+      opts: { stubs: { ArticleCard: true } },
+      asyncDataOpts: { $prismic: createContentStub(contents) },
     });
 
     expect(page.vm).toBeTruthy();
@@ -39,7 +37,8 @@ describe('page | index', () => {
 
     page = await getInitialised({
       page: 'index',
-      asyncDataOpts: { $content: createContentStub(contents) },
+      opts: { stubs: { ArticleCard: true } },
+      asyncDataOpts: { $prismic: createContentStub(contents) },
     });
 
     expect(page.html()).toMatchSnapshot();
@@ -48,7 +47,7 @@ describe('page | index', () => {
   [
     {
       articles: [{}],
-      expectedArticles: undefined,
+      expectedArticles: 0,
       expectedRemainingArticles: 1,
     },
     {
@@ -60,12 +59,11 @@ describe('page | index', () => {
     test(`articles should be ${testCase.expectedArticles} and remaining-articles should be ${testCase.expectedRemainingArticles}`, async () => {
       page = await getInitialised({
         page: 'index',
-        asyncDataOpts: { $content: createContentStub(testCase.articles) },
+        opts: { stubs: { ArticleCard: true } },
+        asyncDataOpts: { $prismic: createContentStub(testCase.articles) },
       });
 
-      const articlesLength = page.vm.articles
-        ? page.vm.articles.length
-        : undefined;
+      const articlesLength = page.vm.articles.length;
 
       expect(articlesLength).toBe(testCase.expectedArticles);
       expect(page.vm.remainingArticles.length).toBe(

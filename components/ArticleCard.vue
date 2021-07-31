@@ -1,13 +1,14 @@
 <template>
   <NuxtLink
     class="article-card"
-    :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+    :to="{ name: 'blog-slug', params: { slug: article.uid } }"
   >
-    <h2 class="article-card__title">{{ article.title }}</h2>
-    <p class="article-card__description">{{ article.description }}</p>
-    <div class="article-card__icon">
-      <img :src="icon.image" role="presentation" alt />
-    </div>
+    <h2 class="article-card__title">{{ article.data.title[0].text }}</h2>
+    <prismic-rich-text
+      class="article-card__description"
+      :field="article.data.excerpt"
+    />
+    <prismic-image class="article-card__icon" :field="icon" />
   </NuxtLink>
 </template>
 
@@ -20,30 +21,20 @@ export default {
       required: true,
     },
   },
-  data() {
-    return {
-      icon: {},
-    };
-  },
-  async fetch() {
-    const icons = await this.$content('icons')
-      .only(['name', 'image'])
-      .where({ name: this.article.icon })
-      .limit(1)
-      .fetch();
-
-    this.icon = icons[0];
+  computed: {
+    icon() {
+      return this.article.data.icon.data.image;
+    },
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .article-card {
   background-color: rgba($white, 0.7);
   box-shadow: $shadow;
   border-radius: 16px;
   outline: none;
-  color: $bright-gray;
   text-decoration: none;
   padding: 14px;
   transition: all 0.1s;
@@ -67,17 +58,23 @@ export default {
     font-size: 1.4rem;
     word-wrap: break-word;
     margin-bottom: 7px;
+    color: $bright-gray;
   }
 
   &__description {
-    font-family: $font-roboto;
-    font-weight: $font-light;
-    font-size: 0.875rem;
-    word-wrap: break-word;
-    overflow: hidden;
-    text-overflow: ellipsis;
     max-width: 300px;
     display: block;
+
+    p {
+      font-family: $font-roboto;
+      font-weight: $font-light;
+      font-size: 0.875rem;
+      line-height: 1.2rem;
+      word-wrap: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 0;
+    }
   }
 
   &__icon {

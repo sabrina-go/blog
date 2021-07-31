@@ -4,7 +4,7 @@
       <div class="index__articles">
         <template v-for="article in articles">
           <ArticleCard
-            :key="article.slug"
+            :key="article.uid"
             :article="article"
             class="index__article"
           />
@@ -13,7 +13,7 @@
       <div :v-if="remainingArticles" class="index__articles-remaining">
         <template v-for="article in remainingArticles">
           <ArticleCard
-            :key="article.slug"
+            :key="article.uid"
             :article="article"
             class="index__article-remaining"
           />
@@ -24,15 +24,16 @@
 </template>
 
 <script>
-import ArticleCard from '../components/ArticleCard';
 export default {
-  components: { ArticleCard },
-  async asyncData({ $content }) {
-    const articles = await $content('articles')
-      .only(['title', 'description', 'img', 'slug', 'author', 'icon'])
-      .sortBy('createdAt', 'desc')
-      .fetch();
-
+  async asyncData({ $prismic }) {
+    const document = await $prismic.api.query(
+      $prismic.predicates.at('document.type', 'post'),
+      {
+        fetchLinks: ['icon.image'],
+        orderings: '[my.post.date desc]',
+      }
+    );
+    const articles = document.results;
     const numberOfArticleChunk = Math.floor(articles.length / 6);
 
     return numberOfArticleChunk >= 1
@@ -40,7 +41,7 @@ export default {
           articles: articles.slice(0, numberOfArticleChunk * 6),
           remainingArticles: articles.slice(numberOfArticleChunk * 6),
         }
-      : { remainingArticles: articles };
+      : { articles: [], remainingArticles: articles };
   },
 };
 </script>
