@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/sabrina-go/blog/compare/v1.19.7...v1.20.0) (2021-07-31)
+
+
+### Features
+
+* Permettre l'ajout de pages via Prismic ([9455e7b](https://github.com/sabrina-go/blog/commit/9455e7b4c4773ac0893b1b1ecb3386001da74940)), closes [#78](https://github.com/sabrina-go/blog/issues/78)
+
 ## [1.19.7](https://github.com/sabrina-go/blog/compare/v1.19.6...v1.19.7) (2021-07-31)
 
 
