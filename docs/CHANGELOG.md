@@ -1,3 +1,10 @@
+## [1.19.7](https://github.com/sabrina-go/blog/compare/v1.19.6...v1.19.7) (2021-07-31)
+
+
+### Bug Fixes
+
+* publishedAt ([e239734](https://github.com/sabrina-go/blog/commit/e239734b18808cf4df34a5d442230d2cd22a8493))
+
 ## [1.19.6](https://github.com/sabrina-go/blog/compare/v1.19.5...v1.19.6) (2021-07-21)
 
 
