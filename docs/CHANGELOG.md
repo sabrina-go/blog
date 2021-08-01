@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/sabrina-go/blog/compare/v1.21.0...v1.21.1) (2021-08-01)
+
+
+### Bug Fixes
+
+* Meta for blog post ([100c474](https://github.com/sabrina-go/blog/commit/100c47455b1af9e36b634cc88e6f12deac80ebcb))
+
 # [1.21.0](https://github.com/sabrina-go/blog/compare/v1.20.0...v1.21.0) (2021-07-31)
 
 
