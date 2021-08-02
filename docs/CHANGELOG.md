@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/sabrina-go/blog/compare/v1.21.1...v1.21.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* Edit trigger to prismic_deploy ([21a1cc1](https://github.com/sabrina-go/blog/commit/21a1cc1847293f90058c4ce0628a1ea4a038e09c))
+
 ## [1.21.1](https://github.com/sabrina-go/blog/compare/v1.21.0...v1.21.1) (2021-08-01)
 
 
