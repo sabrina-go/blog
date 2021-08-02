@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/a-propos", {data:[{document:{title:[{type:"heading1",text:"A propos",spans:[]}],body:[{type:"paragraph",text:"Bonjour je m'appelle Sabrina t",spans:[]}]}}],fetch:{},mutations:void 0});
