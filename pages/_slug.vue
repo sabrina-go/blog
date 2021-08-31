@@ -22,7 +22,7 @@ export default {
 .page {
   &__container {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     padding: 21px;
     display: flex;
     flex-direction: column;

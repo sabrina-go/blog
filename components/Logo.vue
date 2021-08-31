@@ -24,7 +24,11 @@ export default {
   padding: 21px 0 42px;
 
   &__image {
-    height: 100px;
+    height: 75px;
+
+    @include device-is('tablet') {
+      height: 100px;
+    }
   }
 }
 </style>

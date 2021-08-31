@@ -55,10 +55,15 @@ export default {
   &__title {
     font-family: $font-open-sans;
     font-weight: $font-semi-bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
     word-wrap: break-word;
     margin-bottom: 7px;
     color: $bright-gray;
+    @include device-is('tablet') {
+      font-size: 1.4rem;
+      line-height: 2.4375rem;
+    }
   }
 
   &__description {
@@ -78,14 +83,19 @@ export default {
   }
 
   &__icon {
-    position: absolute;
-    bottom: 14px;
-    right: 14px;
-    width: 60px;
-    margin-left: 7px;
+    display: none;
 
-    img {
-      width: 100%;
+    @include device-is('tablet') {
+      display: block;
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      width: 60px;
+      margin-left: 7px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
