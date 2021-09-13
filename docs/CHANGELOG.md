@@ -1,3 +1,10 @@
+## [1.21.7](https://github.com/sabrina-go/blog/compare/v1.21.6...v1.21.7) (2021-09-13)
+
+
+### Bug Fixes
+
+* favicon ([98c9f05](https://github.com/sabrina-go/blog/commit/98c9f05ec6619c8a1ed0e0857b859029a13ff359))
+
 ## [1.21.6](https://github.com/sabrina-go/blog/compare/v1.21.5...v1.21.6) (2021-09-13)
 
 
