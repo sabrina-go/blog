@@ -1,3 +1,10 @@
+## [1.21.6](https://github.com/sabrina-go/blog/compare/v1.21.5...v1.21.6) (2021-09-13)
+
+
+### Bug Fixes
+
+* add favicon base url ([ac4903e](https://github.com/sabrina-go/blog/commit/ac4903e50352524b928ae9a32c14e233cd6f683c))
+
 ## [1.21.5](https://github.com/sabrina-go/blog/compare/v1.21.4...v1.21.5) (2021-09-02)
 
 
