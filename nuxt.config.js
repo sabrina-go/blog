@@ -58,7 +58,7 @@ export default {
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'favicon.ico',
+        href: 'https://wearetheknowledge.com/favicon.ico',
       },
       {
         rel: 'stylesheet',
