@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/sabrina-go/blog/compare/v1.21.7...v1.22.0) (2021-09-13)
+
+
+### Features
+
+* use opengraph card generator ([83e866e](https://github.com/sabrina-go/blog/commit/83e866e30f6b715db0da206a47a376e37f003c73))
+
 ## [1.21.7](https://github.com/sabrina-go/blog/compare/v1.21.6...v1.21.7) (2021-09-13)
 
 
