@@ -52,6 +52,21 @@ export default {
           property: 'og:description',
           content: this.description,
         },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+        },
+        {
+          hid: 'twitter:image',
+          property: 'twitter:image',
+          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+        },
+        {
+          hid: 'image',
+          property: 'image',
+          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+        },
       ],
     };
   },
