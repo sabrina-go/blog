@@ -55,17 +55,17 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+          content: this.seoImageUrl,
         },
         {
           hid: 'twitter:image',
           property: 'twitter:image',
-          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+          content: this.seoImageUrl,
         },
         {
           hid: 'image',
           property: 'image',
-          content: `https://opengraph.wearetheknowledge.com/cards/${this.title}`,
+          content: this.seoImageUrl,
         },
       ],
     };
@@ -76,6 +76,12 @@ export default {
     },
     description() {
       return this.article.excerpt[0].text;
+    },
+    seoImageUrl() {
+      return `https://opengraph.wearetheknowledge.com/cards/${this.title.replace(
+        /\?/g,
+        '%3F'
+      )}`;
     },
   },
   methods: {
