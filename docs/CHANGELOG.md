@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/sabrina-go/blog/compare/v1.22.0...v1.22.1) (2021-09-14)
+
+
+### Bug Fixes
+
+* allow to pass question mark in card url ([ee2ea3d](https://github.com/sabrina-go/blog/commit/ee2ea3da2f22b92b2b60e4c987eb0a3c03afe200))
+
 # [1.22.0](https://github.com/sabrina-go/blog/compare/v1.21.7...v1.22.0) (2021-09-13)
 
 
