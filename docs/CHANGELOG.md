@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/sabrina-go/blog/compare/v1.22.1...v1.22.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-node from 2.4.0 to 2.4.1 ([86070c3](https://github.com/sabrina-go/blog/commit/86070c39f3555c9f168166f77ec4083155ab6796))
+
 ## [1.22.1](https://github.com/sabrina-go/blog/compare/v1.22.0...v1.22.1) (2021-09-14)
 
 
