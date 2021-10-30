@@ -1,3 +1,5 @@
+import { createFeed } from './utils/feed';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -104,7 +106,9 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/feed', '@nuxtjs/style-resources'],
+
+  feed: [createFeed()],
 
   styleResources: {
     scss: ['assets/scss/globals.scss'],
