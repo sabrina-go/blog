@@ -8,7 +8,7 @@ const feedOptions = {
   description: 'Inspirer et partager la connaisance.',
   id: process.env.BASE_URL,
   link: process.env.BASE_URL,
-  favicon: `${process.env.BASE_URL}/favicon.ico`,
+  favicon: 'https://wearetheknowledge.com//favicon.ico',
   copyright: 'All rights reserved 2021, Sabrina Gomes',
 };
 
@@ -18,7 +18,7 @@ export function createFeed(type = 'rss2') {
       feed.options = feedOptions;
       const posts = await getAllPost();
       posts.forEach((post) => {
-        const url = `${process.env.BASE_URL}/blog/${post.uid}`;
+        const url = `https://wearetheknowledge.com/blog/${post.uid}`;
         feed.addItem({
           date: new Date(post.data.date),
           id: url,
