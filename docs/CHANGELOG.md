@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/sabrina-go/blog/compare/v1.22.2...v1.23.0) (2021-10-30)
+
+
+### Features
+
+* Add feed rss ([d7a2671](https://github.com/sabrina-go/blog/commit/d7a2671fc3e2bbe6e3f77e1d45d128246e27bd30))
+
 ## [1.22.2](https://github.com/sabrina-go/blog/compare/v1.22.1...v1.22.2) (2021-10-01)
 
 
