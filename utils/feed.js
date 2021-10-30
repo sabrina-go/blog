@@ -6,9 +6,9 @@ const endpoint = 'https://sabrina-go-blog.cdn.prismic.io/api/v2';
 const feedOptions = {
   title: 'We are the knowledge',
   description: 'Inspirer et partager la connaisance.',
-  id: process.env.BASE_URL,
-  link: process.env.BASE_URL,
-  favicon: 'https://wearetheknowledge.com//favicon.ico',
+  id: 'https://wearetheknowledge.com',
+  link: 'https://wearetheknowledge.com',
+  favicon: 'https://wearetheknowledge.com/favicon.ico',
   copyright: 'All rights reserved 2021, Sabrina Gomes',
 };
 
