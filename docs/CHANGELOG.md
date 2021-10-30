@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/sabrina-go/blog/compare/v1.23.0...v1.23.1) (2021-10-30)
+
+
+### Bug Fixes
+
+* feed base_url ([55642c7](https://github.com/sabrina-go/blog/commit/55642c73e98c27f7d840f317ab3029c3cf2cc948))
+
 # [1.23.0](https://github.com/sabrina-go/blog/compare/v1.22.2...v1.23.0) (2021-10-30)
 
 
