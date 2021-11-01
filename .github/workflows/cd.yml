@@ -31,6 +31,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run generate
+        env:
+          PLAUSIBLE_URL: ${{ secrets.PLAUSIBLE_URL }}
 
       - name: Release
         run: npx semantic-release

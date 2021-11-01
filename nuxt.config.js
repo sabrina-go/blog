@@ -71,6 +71,15 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;600&display=swap',
       },
     ],
+    script: [
+      {
+        type: 'text/javascript',
+        src: process.env.PLAUSIBLE_URL,
+        async: true,
+        defer: true,
+        'data-domain': 'wearetheknowledge.com',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
