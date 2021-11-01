@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/sabrina-go/blog/compare/v1.23.2...v1.24.0) (2021-11-01)
+
+
+### Features
+
+* Add plausible ([63f7b49](https://github.com/sabrina-go/blog/commit/63f7b496358c7f1462d4a51d40ccabdc64377baa))
+
 ## [1.23.2](https://github.com/sabrina-go/blog/compare/v1.23.1...v1.23.2) (2021-10-30)
 
 
