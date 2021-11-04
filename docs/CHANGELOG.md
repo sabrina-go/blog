@@ -1,3 +1,10 @@
+## [1.24.2](https://github.com/sabrina-go/blog/compare/v1.24.1...v1.24.2) (2021-11-04)
+
+
+### Bug Fixes
+
+* improve ul style ([a4ea608](https://github.com/sabrina-go/blog/commit/a4ea6086521192af5dad169c41a45902649306b2))
+
 ## [1.24.1](https://github.com/sabrina-go/blog/compare/v1.24.0...v1.24.1) (2021-11-03)
 
 
