@@ -1,3 +1,11 @@
+## [1.24.3](https://github.com/sabrina-go/blog/compare/v1.24.2...v1.24.3) (2021-11-05)
+
+
+### Bug Fixes
+
+* article cards in index page ([0eb0c49](https://github.com/sabrina-go/blog/commit/0eb0c4973055941e8f8ad07481ccd2865cb66108))
+* seo url encode ([0cfb85f](https://github.com/sabrina-go/blog/commit/0cfb85f2c6a5ce1e71507b8454d0c2e9f1c6c49a))
+
 ## [1.24.2](https://github.com/sabrina-go/blog/compare/v1.24.1...v1.24.2) (2021-11-04)
 
 
