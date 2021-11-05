@@ -122,10 +122,8 @@ export default {
   }
 
   &__article-remaining {
-    @include device-is('tablet') {
-      width: 400px;
-      height: 180px;
-    }
+    width: 400px;
+    height: 180px;
   }
 }
 </style>
