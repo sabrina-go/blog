@@ -78,9 +78,8 @@ export default {
       return this.article.excerpt[0].text;
     },
     seoImageUrl() {
-      return `https://opengraph.wearetheknowledge.com/cards/${this.title.replace(
-        /\?/g,
-        '%3F'
+      return `https://opengraph.wearetheknowledge.com/cards/${encodeURIComponent(
+        this.title
       )}`;
     },
   },
