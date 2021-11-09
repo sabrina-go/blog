@@ -96,14 +96,10 @@ export default {
 .article {
   min-height: 100vh;
   width: 100%;
-  background-image: url('/post-background.png');
-  background-position: top;
-  background-repeat: no-repeat;
 
   &__container {
     min-height: 100vh;
     width: 100%;
-    backdrop-filter: blur(12px);
     display: flex;
     justify-content: center;
     padding-bottom: 42px;
