@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/sabrina-go/blog/compare/v1.24.3...v1.25.0) (2021-11-09)
+
+
+### Features
+
+* remove post background ([bb9f466](https://github.com/sabrina-go/blog/commit/bb9f466955f9286c9f97cd0b1a70a3e661ebfb98))
+
 ## [1.24.3](https://github.com/sabrina-go/blog/compare/v1.24.2...v1.24.3) (2021-11-05)
 
 
