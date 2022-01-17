@@ -1,3 +1,10 @@
+## [1.25.2](https://github.com/sabrina-go/blog/compare/v1.25.1...v1.25.2) (2022-01-17)
+
+
+### Bug Fixes
+
+* **deps:** bump @nuxtjs/prismic from 1.3.2 to 1.4.0 ([1c656d1](https://github.com/sabrina-go/blog/commit/1c656d1f63de334e1d18eaf25c26a3cad49e86e7))
+
 ## [1.25.1](https://github.com/sabrina-go/blog/compare/v1.25.0...v1.25.1) (2022-01-14)
 
 
