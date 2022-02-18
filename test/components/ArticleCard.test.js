@@ -17,7 +17,7 @@ describe('components | ArticleCard', () => {
       stubs: {
         NuxtLink: true,
         PrismicRichText: true,
-        PrismicImage: true,
+        NuxtImg: true,
       },
       propsData: {
         article,

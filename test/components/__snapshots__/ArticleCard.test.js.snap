@@ -4,6 +4,6 @@ exports[`components | ArticleCard render properly 1`] = `
 "<nuxtlink-stub to=\\"[object Object]\\" class=\\"article-card\\">
   <h2 class=\\"article-card__title\\">Article Card test</h2>
   <prismicrichtext-stub field=\\"description\\" class=\\"article-card__description\\"></prismicrichtext-stub>
-  <prismicimage-stub field=\\"img\\" class=\\"article-card__icon\\"></prismicimage-stub>
+  <nuxtimg-stub provider=\\"prismic\\" alt=\\"\\" class=\\"article-card__icon\\"></nuxtimg-stub>
 </nuxtlink-stub>"
 `;
