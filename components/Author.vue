@@ -4,6 +4,7 @@
     <a
       class="author__linkedin"
       href="https://www.linkedin.com/in/sabrina-gomes-11098513b/"
+      aria-label="Profil LinkedIn de Sabrina Gomes"
     >
       <font-awesome-icon :icon="['fab', 'linkedin-in']" />
     </a>
