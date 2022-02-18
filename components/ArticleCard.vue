@@ -8,7 +8,12 @@
       class="article-card__description"
       :field="article.data.excerpt"
     />
-    <prismic-image class="article-card__icon" :field="icon" />
+    <nuxt-img
+      class="article-card__icon"
+      provider="prismic"
+      :src="iconUrl"
+      alt=""
+    />
   </NuxtLink>
 </template>
 
@@ -22,8 +27,8 @@ export default {
     },
   },
   computed: {
-    icon() {
-      return this.article.data.icon.data.image;
+    iconUrl() {
+      return this.article.data.icon.data.image.url;
     },
   },
 };
