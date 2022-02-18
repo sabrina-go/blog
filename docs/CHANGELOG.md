@@ -1,3 +1,13 @@
+# [1.26.0](https://github.com/sabrina-go/blog/compare/v1.25.2...v1.26.0) (2022-02-18)
+
+
+### Features
+
+* **ArticleCard:** Use nuxt-img ([d6d9b3b](https://github.com/sabrina-go/blog/commit/d6d9b3b2d9909533e4741872f9b79d379157d27e))
+* **Author:** Add aria-label on link ([ad23531](https://github.com/sabrina-go/blog/commit/ad235313378fe17aa050eb44e1b790f7fbaa2f3c))
+* **html-serializer:** Use nuxt-img ([e327bbc](https://github.com/sabrina-go/blog/commit/e327bbc9b6914e98d78502d988c1d9145235e2da))
+* **index:** Add sr-only title ([358e8c0](https://github.com/sabrina-go/blog/commit/358e8c00832f0afb995ae4f4bd22f007ff7c2313))
+
 ## [1.25.2](https://github.com/sabrina-go/blog/compare/v1.25.1...v1.25.2) (2022-01-17)
 
 
