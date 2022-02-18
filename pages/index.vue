@@ -1,6 +1,7 @@
 <template>
   <div class="index">
     <div class="index__container">
+      <h1 class="sr-only">Les articles</h1>
       <div class="index__articles">
         <template v-for="article in articles">
           <ArticleCard
