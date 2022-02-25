@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/sabrina-go/blog/compare/v1.26.0...v1.26.1) (2022-02-25)
+
+
+### Bug Fixes
+
+* move prismic required files ([778869a](https://github.com/sabrina-go/blog/commit/778869a68f6391ab07190bd2da4a2850c31186e8))
+
 # [1.26.0](https://github.com/sabrina-go/blog/compare/v1.25.2...v1.26.0) (2022-02-18)
 
 
