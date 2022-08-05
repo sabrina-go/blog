@@ -1,3 +1,11 @@
+## [1.26.2](https://github.com/sabrina-go/blog/compare/v1.26.1...v1.26.2) (2022-08-05)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/cache from 2 to 3.0.1 ([2d7b256](https://github.com/sabrina-go/blog/commit/2d7b2564ec0446894ad20cb2cc93a1a3a42a4f14))
+* **deps:** bump actions/setup-node from 2.5.1 to 3.4.1 ([ddd7aca](https://github.com/sabrina-go/blog/commit/ddd7aca529ad2fc369fa02b1540ba8a847f36dd8))
+
 ## [1.26.1](https://github.com/sabrina-go/blog/compare/v1.26.0...v1.26.1) (2022-02-25)
 
 
