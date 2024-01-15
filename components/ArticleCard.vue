@@ -46,7 +46,7 @@ export default {
   position: relative;
 
   &:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
     background-color: rgba($white, 0.8);
     box-shadow: $shadow-hover;
   }
