@@ -27,7 +27,7 @@ html {
 }
 
 .layout {
-  background: $main-gradient;
+  background: #cff0f2;
   min-height: 100vh;
 }
 </style>
